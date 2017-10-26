@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+		list-style: none;
+		text-decoration:none;
+	}
+	body{
+		background: #f9f9f9;
+	}
+	#index-nav-box{
+		width: 100%;
+		height:30px;
+		background: #333;
+	}
+	#index-nav{
+		width: 1080px;
+		height:30px;
+		margin:0 auto;
+	}
+	#index-nav-left a,.leftSpan{
+		float:left;
+		color: #ccc;
+		font-size:12px;
+		margin-right:18px;
+		line-height:30px;
+	}
+	#index-nav-right a,.rightSpan{
+		float:right;
+		color: #ccc;
+		font-size:12px;
+		margin-left:20px;
+		line-height:30px;
+	}
+	#index-nav-right .num{
+		margin-left:10px;
+	}
+	#index-nav-right img{
+		margin-right:13px;
+		vertical-align:middle;
+	}
+	/*导航栏*/
+	.index-Search-box{
+		width: 100%;
+		height:98px;
+		background: white;
+	}
+	.index-Search{
+		width: 1080px;
+		height:98px;
+		margin: 0 auto;
+		line-height: 98px;
+		background: white;
+	}
+	.index-Search p{
+		float:right;
+		margin-top: 30px;
+		height:40px;
+		width: 310px;
+		padding-left:10px;
+		border: 1px solid #666;
+		line-height: 40px;
+	}
+	.index-Search input{
+		height:40px;
+		display: block;
+		border:none;
+	}
+	.index-Search img{
+		margin-top: 22px;
+	}
+	.index-Search .SearchBtn{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		border:1px solid #666;
+		float:right;
+		border-left:none;
+		margin-top: 30px;
+	}
+	/*轮播图和二级菜单*/
+	.index-result-box{
+		border:1px solid red;
+		width: 1080px;
+		height:360px;
+		margin:0 auto;
+		margin-top:10px;
+	}
+</style>
+</head>
+<body>
+	<!--
+    	作者：1434359244@qq.com
+    	时间：2017-10-24
+    	描述：导航栏。
+    -->
+	<div id="index-nav-box">
+		<div id="index-nav">
+			<div id="index-nav-left">
+				<a href="#">首页</a>
+				<span class="leftSpan">|</span>
+				<a href="#">平台政策</a>
+				<span class="leftSpan">|</span>
+				<a href="#">商家入驻</a>
+			</div>
+			<div id="index-nav-right">
+				<a href="#"><img src=""/>购物车<span class="num">0</span></a>
+				<a href="#"><img src="img/youXiang.png"/>消息中心<span class="num">0</span></a>
+				<a href="#">下载必需APP</a>
+				<span class="rightSpan">|</span>
+				<a href="#">注册</a>
+				<a href="#">登录</a>
+			</div>
+		</div>
+	</div>
+	<!--
+    	作者：1434359244@qq.com
+    	时间：2017-10-24
+    	描述：搜索栏。
+    -->
+    <div class="index-Search-box">
+    	<div class="index-Search">
+    		<img src="img/logo.png" />
+	    	<span class="SearchBtn"><img src=""/></span>
+	    	<p><input type="text" placeholder="请输入要搜索的商品" /></p>
+    	</div>
+    </div>
+    <!--
+    	作者：1434359244@qq.com
+    	时间：2017-10-25
+    	描述：二级菜单和轮播图
+    -->
+    <div class="index-result-box">
+    	
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+$(function(){
+})
+</script>
